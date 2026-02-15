@@ -1,0 +1,1 @@
+print('Dr.Evil: Back in the 60\'s, we developed a sophisticated heat beam we calles a "laser"')
