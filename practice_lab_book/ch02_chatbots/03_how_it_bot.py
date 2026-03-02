@@ -10,7 +10,7 @@ print("How it's going?")
 # Get the user’s reply
 reply = input()
 # If they said Good, reply Good!
-if reply == 'Good' or reply == "good" or reply == "great":
+if "Good" in reply or "good" in reply or "great" in reply:
   print("Good!")
 # Otherwise if they said Bad, reply Oh no!
 elif reply == 'Bad' or reply == 'bad' or reply == "poor":
