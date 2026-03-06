@@ -8,12 +8,15 @@
 # Ask the user how it’s going
 print("How it's going?")
 # Get the user’s reply
-reply = input()
+reply = input().lower()
 # If they said Good, reply Good!
 if "Good" in reply or "good" in reply or "great" in reply:
-  print("Good!")
+  if "not" in reply:
+    print("Oh no!")
+  else:
+    print("Good!")
 # Otherwise if they said Bad, reply Oh no!
-elif reply == 'Bad' or reply == 'bad' or reply == "poor":
+elif "bad" in reply or "not good" in reply:
   print("Oh no!")
 # Otherwise if they’re "So so", reply "Hope you feel better!"
 elif reply == "So so":
