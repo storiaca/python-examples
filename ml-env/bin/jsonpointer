@@ -1,5 +1,4 @@
-#!/home/aca/python-examples/ml-env/bin/python3.12
-# -*- coding: utf-8 -*-
+#!/home/stori/python-examples/ml-env/bin/python
 
 
 import argparse

@@ -1,4 +1,4 @@
-#!/home/aca/python-examples/ml-env/bin/python3.12
+#!/home/stori/python-examples/ml-env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
