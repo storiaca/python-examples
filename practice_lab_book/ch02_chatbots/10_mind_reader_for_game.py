@@ -1,0 +1,21 @@
+# Mind Reader Game (3 rounds)
+# Author: Aleksandar Ristic
+# Date: 25.10.2026.
+# This is a 2−player game.
+# The 1st player reads a word and secretly
+# enters 3 words they associate with it.
+# The 2nd player must then try to guess at
+# least one of the words.
+# If it’s a match, they win!
+
+# Introduce the game
+print("Welcome to Mind Reader")
+
+# Make a list of words
+word_list = ["cat", "dog", "apple"]
+
+# Loop through all the items in words
+for word in word_list:
+	# Ask the firts player to enter 3 words
+  # accoiated with a given word
+  print("Player 1, enter 3 words you think \ of when I say " + word)
