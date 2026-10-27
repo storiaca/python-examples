@@ -19,3 +19,24 @@ for word in word_list:
 	# Ask the firts player to enter 3 words
   # accoiated with a given word
   print("Player 1, enter 3 words you think \ of when I say " + word)
+
+# Get the 3 words from the user
+first_word = input("First word: ").lower()
+second_word = input("Second word: ").lower()
+third_word = input("Third word: ").lower()
+
+# Clear the screen
+print(100*"\n")
+
+# Ask the 2nd player to guess
+print("Player2, what is one word yu think \ Player 1 associates with " + word + "?")
+guess = input().lower()
+
+# Check if they match and tell them if they win
+if guess in [first_word, second_word, third_word]:
+  print("You got it!")
+
+# Otherwise, if they got it wrong
+else:
+  print("No match! They said " + first_word + \
+        ", "+ second_word + " and " + third_word)
