@@ -18,16 +18,17 @@ for i in range(5):
 
   # add to the matching tally
   if favourite_cafe == "starbucks":
-    starbucks_tally = starbucks_tally + 1
+    starbucks_tally += 1
   
   elif favourite_cafe == "tim hortons":
-    tim_hortson_tally = tim_hortson_tally + 1
+    tim_hortson_tally += 1
 
   elif favourite_cafe == "artiggiano":
-    artiggiano_tally = artiggiano_tally + 1
+    artiggiano_tally += 1
 
-# print out how many people who like each one
-print("Starbucks:", starbucks_tally)
-print("Tim Hortons:", tim_hortson_tally)
-print("Artiggiano:", artiggiano_tally)
+# Prints out the percentage of peple who like
+# each one, up to 2 decimal places
+print("Starbucks: ", starbucks_tally/5*100)
+print("Tim Hortons: ", tim_hortson_tally/5*100)
+print("Artiggiano: ", artiggiano_tally/5*100)
   
