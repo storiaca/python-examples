@@ -12,8 +12,13 @@ for i in range(5):
   preference = input("Which movie is your favorite out of Frozen, X-Men or Harry Potter? ").lower().strip(" .!")
 
   # Add 1 to the appropriate movie
-  movies[preference] += 1
+  if preference in movies:
+    movies[preference] += 1
+  else: 
+    # print("Please type Frozen, X-Men, or Harry Potter")
+    # if the key is not there, add a new pair
+    movies[preference] = 1
 
 # Print out the results using a loop
 for movie in movies:
-  print(movie, movies[movie]) # Name and tally
+  print(f"{movie.capitalize()}: {movies[movie]}") # Name and tally
